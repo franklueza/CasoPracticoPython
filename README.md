@@ -30,9 +30,13 @@ Tenga en mente las metas de la ONU para terminar con la Tuberculosis para 2025:
 -method: método de diagnóstico (ej. esputo pulmonar positivo).
 - population: población del país en ese año.
  
+## Visualizaciones del Dashboard
 
-Grafica
+### Dashboard. Distribución y tendencia de casos
+![Dashboard Tuberculosis 1](https://raw.githubusercontent.com/franklueza/CasoPracticoPython/refs/heads/main/Dashboard1.png)
 
+### Dashboard. Incidencia global y grupos vulnerables
+![Dashboard Tuberculosis 2](https://raw.githubusercontent.com/franklueza/CasoPracticoPython/refs/heads/main/Dashboard2.png)
 # Reporte: Análisis de la Situación de la Tuberculosis (1995–2013)
 
 ## Resumen
