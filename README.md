@@ -15,12 +15,8 @@ Tenga en mente las metas de la ONU para terminar con la Tuberculosis para 2025:
 - Reducción en la tasa de incidencia del 50% (2015 vs. 2025).
 - Reducción en 75% el número de muertes (2015 vs. 2025).
 
-### Instrucciones 
-- Revisa la documentación de los conjuntos de datos “who” y “population” en: https://tidyr.tidyverse.org/reference/who.html 
-- Limpia los datos para colocarlos de acuerdo con la definición de datos ordenados en:  https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html 
-- Una vez limpias ambas tablas combínelas para crear un solo conjunto de datos. 
-- Elabore un reporte ejecutivo con gráficas que le permitan mostrar los puntos más relevantes de la situación actual, tendencias, y regiones parauna exposición comprensiva de los datos. 
-- Realice recomendaciones basado en las conclusiones del análisis.
+### Fuente de datos
+ https://tidyr.tidyverse.org/reference/who.html 
 
 ### Información general del dataset
 - Registros: 226,072
@@ -33,20 +29,54 @@ Tenga en mente las metas de la ONU para terminar con la Tuberculosis para 2025:
 - agegroup: grupo de edad (algunas filas no lo tienen).
 -method: método de diagnóstico (ej. esputo pulmonar positivo).
 - population: población del país en ese año.
-
-### Resumen general de casos y población por año
-Casos Totales (cases): Se sumaron los casos de tuberculosis reportados por año.   
-Población Total (population): Se sumó la población total registrada para cada año.  
-Tasa de Incidencia (incidencia): Se calculó como:  
-incidencia = casos / casos totales × 100,000  
-Este cálculo permite observar la proporción de casos de tuberculosis en relación con el tamaño de la población, lo que facilita comparaciones entre años. 
+ 
 
 Grafica
 
-Tendencia General:  
-- Aumento inicial: Entre 1995 y 2006, la tasa de incidencia aumenta significativamente.
-- Pico máximo: El año 2007 registra la tasa más alta, con aproximadamente 45 casos por 100,000 habitantes.
-- Disminución posterior: Después de 2007, la tasa de incidencia comienza a disminuir gradualmente, aunque permanece elevada.
+# Reporte: Análisis de la Situación de la Tuberculosis (1995–2013)
 
+## Resumen
+A través de una revisión integral de datos desglosados por país, edad, género y método diagnóstico, se identificaron tendencias clave en la evolución de la incidencia mundial. Este informe presenta los hallazgos más relevantes y una proyección frente a la meta de la ONU para 2025.
+
+---
+
+## 1. Tendencias globales y tasa de incidencia
+
+- **Incremento acumulado del 509%** entre 1995 y 2008.
+- **Disminución del 19%** de 2009 a 2013.
+- Proyección 2025: **78.8% de los casos por cada 100,000 habitantes**, alejándose de la **meta ONU (-50%)**.
+
+---
+
+## 2. Distribución geográfica
+
+- **China (20.8%)**, **India (16.8%)** e **Indonesia (6.8%)** concentraron la mayoría de casos en 2013.
+- Priorización geográfica es clave para combatir la enfermedad de forma efectiva.
+
+---
+
+## 3. Segmentación por género y edad
+
+- **64.4% de los casos** en las mujeres.
+- Grupo más afectado: **15–24 años**, seguido por **25–34** y **35–44**.
+- Enfocar estrategias en adultos jóvenes de género femenino.
+
+---
+
+## 4. Métodos de diagnóstico
+
+- **Esputo pulmonar negativo**: 72.4% de los diagnósticos.
+- Le siguen esputo positivo (15.3%) y extrapulmonares (7.6%).
+- Alta dependencia de pruebas respiratorias.
+
+---
+
+## Recomendaciones Estratégicas
+
+1. Reforzar la vigilancia en países con alta carga.
+2. Enfocar intervenciones en población femenina joven.
+3. Diversificar métodos diagnósticos en zonas vulnerables.
+4. Actualizar políticas frente al escenario proyectado.
+5. Impulsar alianzas regionales, educación comunitaria y trazabilidad.
 
 
