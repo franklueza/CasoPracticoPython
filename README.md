@@ -1,8 +1,5 @@
 # CasoPracticoPython
 
-### Prerrequisitos
-Este caso práctico requiere utilizar Python y paquetes asociados.  
-
 ### Planteamiento
 Usted trabaja para la Organización Mundial de la Salud como analista de información. El consejo directivo se reunirá para revisar los datos más recientes de casos de tuberculosis.  
 
